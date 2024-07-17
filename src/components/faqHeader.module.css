@@ -1,0 +1,11 @@
+.header {
+  font-size: 4rem;
+  font-weight: 700;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.star {
+  height: 2.5rem;
+  transform: translateY(0.2rem);
+}

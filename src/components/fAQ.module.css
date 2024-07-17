@@ -1,0 +1,15 @@
+.faqContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 53rem;
+  padding: 3rem 2rem;
+  background: var(--clr-white);
+  border-radius: 1rem;
+}
+
+@media only screen and (max-width: 375px) {
+  .faqContainer {
+    max-width: 30rem;
+  }
+}
